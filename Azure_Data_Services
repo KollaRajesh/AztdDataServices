@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-13T16:40:21.642Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="e-Asy6A_Vi4pSVxd1D-H" version="14.0.1" type="github" pages="4">
+<mxfile modified="2020-12-13T22:52:35.017Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="wV1h6G2ff9JUUksvJA5W" version="14.0.1" type="github" pages="5">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qvOK6YXQqs2uKq-FOEFI" name="Types of Data">
-    <mxGraphModel dx="1812" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="IiXZkSVTin_mcn50K74W-0" />
         <mxCell id="IiXZkSVTin_mcn50K74W-1" parent="IiXZkSVTin_mcn50K74W-0" />
@@ -464,6 +464,14 @@
         <mxCell id="l2YLTjkB0LYqV1I6GT4I-0" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="riuiL7pC6yUNBLEmRVCR-1">
           <mxGeometry x="390" y="295.16" width="70" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OeX1BFLGBi1VGVzkXTSN" name="EF-Core">
+    <mxGraphModel dx="1572" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="KME37owa_LQBpYINGuTs-0" />
+        <mxCell id="KME37owa_LQBpYINGuTs-1" parent="KME37owa_LQBpYINGuTs-0" />
       </root>
     </mxGraphModel>
   </diagram>
