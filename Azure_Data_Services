@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-13T23:38:59.470Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="mejbPqndQjhpuKZIZeH3" version="14.0.1" type="github" pages="5">
+<mxfile modified="2020-12-14T01:56:53.908Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="J9JWckNOENfwqKIxVndu" version="14.0.1" type="github" pages="5">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -473,64 +473,64 @@
         <mxCell id="KME37owa_LQBpYINGuTs-0" />
         <mxCell id="KME37owa_LQBpYINGuTs-1" parent="KME37owa_LQBpYINGuTs-0" />
         <mxCell id="KME37owa_LQBpYINGuTs-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="35" y="30" width="525" height="650" as="geometry" />
+          <mxGeometry x="37.5" y="30" width="525" height="650" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;gradientColor=#ea6b66;strokeColor=#b85450;fillColor=#B5739D;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="105" y="96" width="70" height="60" as="geometry" />
+          <mxGeometry x="80" y="87" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/Open-Office-Icons/stock_data-tables-16.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="127" y="121" width="26" height="26" as="geometry" />
+          <mxGeometry x="102" y="112" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-5" value="Entity&lt;br&gt;Framework" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="245" y="105" width="110" height="42" as="geometry" />
+          <mxGeometry x="220" y="96" width="110" height="42" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-6" value="Context &amp;amp; entities" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="435" y="100" width="90" height="50" as="geometry" />
+          <mxGeometry x="410" y="91" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-7" value="" style="shape=flexArrow;endArrow=classic;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="KME37owa_LQBpYINGuTs-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="175" y="127" as="sourcePoint" />
-            <mxPoint x="245" y="127.08000000000004" as="targetPoint" />
+            <mxPoint x="150" y="118" as="sourcePoint" />
+            <mxPoint x="220" y="118.08000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-9" value="" style="shape=flexArrow;endArrow=classic;html=1;startSize=0;exitX=1;exitY=0.452;exitDx=0;exitDy=0;exitPerimeter=0;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" edge="1" parent="KME37owa_LQBpYINGuTs-1" source="KME37owa_LQBpYINGuTs-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="123.99999999999989" as="sourcePoint" />
-            <mxPoint x="435" y="124" as="targetPoint" />
+            <mxPoint x="335" y="114.99999999999989" as="sourcePoint" />
+            <mxPoint x="410" y="115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-11" value="&lt;p style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; line-height: 100% ; text-align: justify ; overflow-wrap: break-word ; color: rgb(24 , 23 , 23) ; font-family: &amp;#34;verdana&amp;#34; , sans-serif , &amp;#34;geneva&amp;#34; ; background-color: rgb(255 , 255 , 255) ; font-size: 10px&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Entity Framework Core is the version of Entity Framework after EF 6.x.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Open-source, lightweight, extensible and a cross-platform version of Entity Framework data access technology.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;An Object/Relational Mapping (O/RM) framework.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;EF Core is used with .NET Core applications. , it can also be used with standard .NET 4.5+ framework based &lt;br&gt;applications.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font&gt;&lt;u&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Database first approach :&lt;/font&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/u&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;Generate Data access classed from existing Database&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;u&gt;Database first approach :&amp;nbsp;&lt;/u&gt;&lt;span style=&quot;text-align: left&quot;&gt;&amp;nbsp;&lt;font style=&quot;font-size: 10px&quot;&gt;Generate Data access classed from existing Database&amp;nbsp;&lt;/font&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/&quot;&gt;Microsoft.EntityFrameworkCore&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/&quot;&gt;Microsoft.EntityFrameworkCore.Design&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Entity framework Core uses Provider model to access&amp;nbsp; many different databases&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;span&gt;SQLServer&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 10.5pt&quot;&gt;Microsoft.EntityFrameworkCore.SqlServer&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;MySQL&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;nbsp;&lt;a href=&quot;https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 10.5pt&quot;&gt;MySql.Data.EntityFrameworkCore&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;PostgreSQL&amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;nbsp;&lt;a href=&quot;https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 10.5pt&quot;&gt;Npgsql.EntityFrameworkCore.PostgreSQL&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;SQLite&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;nbsp;&lt;a href=&quot;https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SQLite&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 10.5pt&quot;&gt;Microsoft.EntityFrameworkCore.SQLite&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;SQLCompact&amp;nbsp; &amp;nbsp; -&amp;nbsp;&lt;a href=&quot;https://www.nuget.org/packages/EntityFrameworkCore.SqlServerCompact40&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 10.5pt&quot;&gt;EntityFrameworkCore.SqlServerCompact40&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;In-memory&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;nbsp;&lt;a href=&quot;https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.InMemory&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 10.5pt&quot;&gt;Microsoft.EntityFrameworkCore.InMemory&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Cosmos&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;nbsp;&lt;a href=&quot;https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Cosmos/&quot;&gt;Microsoft.EntityFrameworkCore.Cosmos&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];rounded=0;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
           <mxGeometry x="15" y="310" width="550" height="360" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;gradientColor=#ea6b66;strokeColor=#b85450;fillColor=#B5739D;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="455" y="227" width="70" height="60" as="geometry" />
+          <mxGeometry x="430" y="227" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/Open-Office-Icons/stock_data-tables-16.png;strokeColor=#000000;fillColor=none;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="477" y="252" width="26" height="26" as="geometry" />
+          <mxGeometry x="452" y="252" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-14" value="Entity&lt;br&gt;Framework" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="265" y="236" width="110" height="42" as="geometry" />
+          <mxGeometry x="240" y="236" width="110" height="42" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-15" value="Context &amp;amp; Domain Classes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="105" y="232" width="90" height="50" as="geometry" />
+          <mxGeometry x="80" y="232" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-16" value="" style="shape=flexArrow;endArrow=classic;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="KME37owa_LQBpYINGuTs-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="195" y="258" as="sourcePoint" />
-            <mxPoint x="265" y="258.0799999999999" as="targetPoint" />
+            <mxPoint x="170" y="258" as="sourcePoint" />
+            <mxPoint x="240" y="258.0799999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-17" value="" style="shape=flexArrow;endArrow=classic;html=1;startSize=0;exitX=1;exitY=0.452;exitDx=0;exitDy=0;exitPerimeter=0;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" edge="1" parent="KME37owa_LQBpYINGuTs-1" source="KME37owa_LQBpYINGuTs-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="254.9999999999999" as="sourcePoint" />
-            <mxPoint x="455" y="255" as="targetPoint" />
+            <mxPoint x="355" y="254.9999999999999" as="sourcePoint" />
+            <mxPoint x="430" y="255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-19" value="&amp;nbsp;Database first approach" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="235" y="150" width="150" height="20" as="geometry" />
+          <mxGeometry x="225" y="147" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-20" value="&amp;nbsp;Code first approach" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
-          <mxGeometry x="255" y="297" width="120" height="20" as="geometry" />
+          <mxGeometry x="240" y="282" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KME37owa_LQBpYINGuTs-21" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;u&gt;Entity Framework Core&lt;/u&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="KME37owa_LQBpYINGuTs-1">
           <mxGeometry x="160" y="40" width="260" height="20" as="geometry" />
