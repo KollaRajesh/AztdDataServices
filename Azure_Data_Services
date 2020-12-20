@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-20T00:45:19.391Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" etag="HESVIVa_IxytzJQwypRN" version="14.0.0" type="github" pages="6">
+<mxfile modified="2020-12-20T02:40:00.488Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" etag="C4hy0fsrPIeS5HB6w6J0" version="14.0.0" type="github" pages="7">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2158" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -394,60 +394,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="CVmAKnSTbJUXh0REVaYn" name="Page-2">
-    <mxGraphModel dx="2158" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="GYQhm-3y8CjZIvlDoehy-0" />
-        <mxCell id="GYQhm-3y8CjZIvlDoehy-1" parent="GYQhm-3y8CjZIvlDoehy-0" />
-        <mxCell id="2RD997YDWe6JD6hN0LqM-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="30" y="35" width="2040" height="1275" as="geometry" />
-        </mxCell>
-        <mxCell id="GYQhm-3y8CjZIvlDoehy-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.sql_database_sql_azure;fillColor=#2E73B8;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="300" y="120" width="340" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="GYQhm-3y8CjZIvlDoehy-3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/SQL_DataWarehouse.svg;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="230" y="730" width="364.58" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="GYQhm-3y8CjZIvlDoehy-4" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="40" y="115" width="225.01" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="GYQhm-3y8CjZIvlDoehy-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="1500" y="110" width="310" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="GYQhm-3y8CjZIvlDoehy-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;imageBackground=#ffffff;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="1120" y="520" width="257.4" height="343.2" as="geometry" />
-        </mxCell>
-        <mxCell id="2RD997YDWe6JD6hN0LqM-0" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Managed_Instance.svg;strokeColor=#007FFF;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="630" y="130" width="274.21" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="2RD997YDWe6JD6hN0LqM-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;strokeColor=#007FFF;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="1435" y="521.6" width="270" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="2RD997YDWe6JD6hN0LqM-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MariaDB_Server.svg;strokeColor=#007FFF;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="1740" y="521.6" width="270" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="2RD997YDWe6JD6hN0LqM-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_including_Redis.svg;strokeColor=#007FFF;fillColor=#2E73B8;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
-          <mxGeometry x="1410" y="901.6" width="320" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="Qk7xin9UFYKtxn7MkSMh-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAdMAAADrCAYAAAAyoHzZAAAK7klEQVR4Ae3YwQkAIRAEQeMQNv8wFVOwv/W4BJaCHm/NnuNzAwYYYIABBv4NLMf7P57buR0DDDDAwDMgpl7m/kwwwAADDEQDYhoPaJVapQwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRANiGg9okVqkDDDAAANiKqYWKQMMMMBANCCm8YAWqUXKAAMMMCCmYmqRMsAAAwxEA2IaD2iRWqQMMMAAA2IqphYpAwwwwEA0IKbxgBapRcoAAwwwIKZiapEywAADDEQDYhoPaJFapAwwwAADYiqmFikDDDDAQDQgpvGAFqlFygADDDAgpmJqkTLAAAMMRAMXprjPnZ890kQAAAAASUVORK5CYII=;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
-          <mxGeometry x="40" y="1350" width="415.36" height="209.02" as="geometry" />
-        </mxCell>
-        <mxCell id="Qk7xin9UFYKtxn7MkSMh-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
-          <mxGeometry x="55.36" y="1390" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Qk7xin9UFYKtxn7MkSMh-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;strokeColor=#007FFF;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
-          <mxGeometry x="145.36" y="1395.1599999999999" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Qk7xin9UFYKtxn7MkSMh-3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MariaDB_Server.svg;strokeColor=#007FFF;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
-          <mxGeometry x="238.83999999999997" y="1395.1599999999999" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Qk7xin9UFYKtxn7MkSMh-4" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
-          <mxGeometry x="375.36" y="1405.16" width="70" height="70" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="cQqbzqLV8PN2mVxuGs2t" name="Page-4">
+  <diagram id="cQqbzqLV8PN2mVxuGs2t" name="Az-SQLWorkLoads">
     <mxGraphModel dx="1272" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="riuiL7pC6yUNBLEmRVCR-0" />
@@ -494,8 +441,8 @@
         <mxCell id="XWKD0G0wPfM1JHbgsg0Y-9" value="&lt;u&gt;SQL Virtual Machine&lt;/u&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Full Administrative control over the sqlserver&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;Best for initial migrations (Lift &amp;amp; shift )to cloud with OS level access&lt;/li&gt;&lt;li&gt;Expansive SQL Server&amp;nbsp; and&amp;nbsp; OS version Support&amp;nbsp;&lt;/li&gt;&lt;li&gt;Automated Manageability features for SQL Server&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="riuiL7pC6yUNBLEmRVCR-1">
           <mxGeometry x="139.5" y="261.5" width="540.5" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="XWKD0G0wPfM1JHbgsg0Y-10" value="&lt;u&gt;SQL Managed Instances&amp;nbsp;&lt;/u&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;intelligent, scalable cloud database service with all the benefits of a fully managed and platform as a service.&lt;/li&gt;&lt;li&gt;&lt;span&gt;Native Virtual network support&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Fully Managed service&amp;nbsp;&lt;/li&gt;&lt;li&gt;Enables frictionless migration for SQL workloads&lt;/li&gt;&lt;/ul&gt;&lt;span&gt;&lt;u&gt;Features&amp;nbsp;&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Provide Latest stable SQL Server engine&amp;nbsp;&lt;/li&gt;&lt;li&gt;Managed automated backups&amp;nbsp;&lt;/li&gt;&lt;li&gt;Database monitoring and metrics&amp;nbsp;&lt;/li&gt;&lt;li&gt;Automatic software patching&lt;/li&gt;&lt;li&gt;Multiple data files per database&lt;/li&gt;&lt;li&gt;single log file per database&lt;/li&gt;&lt;li&gt;SSIS is part of Azure Data factory PaaS&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span&gt;&lt;u&gt;Pricing Model&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;support V-Core purchasing model (allow to change CPU, memory&amp;nbsp; and Storage based on workload needs)&lt;/li&gt;&lt;li&gt;Gen 4 - Logical core based on Intel® E5-2673 v3 (Haswell), SSD , Physical cores , 7 GB Ram per core , Compute between 8-24 cores&lt;/li&gt;&lt;li&gt;Gen 5 -&amp;nbsp; Logical cores based on &amp;nbsp;Intel® E5-2673 v4 (Broadwell) 2.3 GHz. SSD , hyper threaded logical cores , 7 GB Ram per core , Compute between 8-24 cores&lt;/li&gt;&lt;/ul&gt;&lt;u&gt;Pricing Model&lt;/u&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;General Purpose - Typical performance and I/O Latency&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Business Critical -&amp;nbsp; low I/O Latency requirement &amp;amp; minimal impact of underlying maintenance workload&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="riuiL7pC6yUNBLEmRVCR-1">
-          <mxGeometry x="138.5" y="384.5" width="541.5" height="545.5" as="geometry" />
+        <mxCell id="XWKD0G0wPfM1JHbgsg0Y-10" value="&lt;u&gt;SQL Managed Instances&amp;nbsp;&lt;/u&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;intelligent, scalable cloud database service with all the benefits of a fully managed and platform as a service.&lt;/li&gt;&lt;li&gt;&lt;span&gt;Native Virtual network support&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Fully Managed service&amp;nbsp;&lt;/li&gt;&lt;li&gt;Enables frictionless migration for SQL workloads&lt;/li&gt;&lt;/ul&gt;&lt;span&gt;&lt;u&gt;Features&amp;nbsp;&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Provide Latest stable SQL Server engine&amp;nbsp;&lt;/li&gt;&lt;li&gt;Managed automated backups&amp;nbsp;&lt;/li&gt;&lt;li&gt;Database monitoring and metrics&amp;nbsp;&lt;/li&gt;&lt;li&gt;Automatic software patching&lt;/li&gt;&lt;li&gt;Multiple data files per database&lt;/li&gt;&lt;li&gt;single log file per database&lt;/li&gt;&lt;li&gt;SSIS is part of Azure Data factory PaaS&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span&gt;&lt;u&gt;Pricing Model&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;support V-Core purchasing model (allow to change CPU, memory&amp;nbsp; and Storage based on workload needs)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Gen 4 &lt;/b&gt;- Logical core based on Intel® E5-2673 v3 (Haswell), SSD , Physical cores , 7 GB Ram per core , Compute between 8-24 cores&lt;/li&gt;&lt;li&gt;&lt;b&gt;Gen 5&lt;/b&gt; -&amp;nbsp; Logical cores based on &amp;nbsp;Intel® E5-2673 v4 (Broadwell) 2.3 GHz. SSD , hyper threaded logical cores , 7 GB Ram per core , Compute between 8-24 cores&lt;/li&gt;&lt;/ul&gt;&lt;u&gt;Service tiers&lt;/u&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;General Purpose - Typical performance and I/O Latency&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Business Critical -&amp;nbsp; low I/O Latency requirement &amp;amp; minimal impact of underlying maintenance workload&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;u&gt;Security Features&amp;nbsp;&lt;/u&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;SQL Managed Instances auditing&lt;/li&gt;&lt;li&gt;&amp;nbsp;Data encryption in motion using TLS&amp;nbsp;&lt;/li&gt;&lt;li&gt;Advanced Threat protection&amp;nbsp;&lt;/li&gt;&lt;li&gt;Dynamic Data masking&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Transparent Data Encryption (TDE) encrypt data files at rest&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Instance&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="riuiL7pC6yUNBLEmRVCR-1">
+          <mxGeometry x="138.5" y="384.5" width="541.5" height="685.5" as="geometry" />
         </mxCell>
         <mxCell id="XWKD0G0wPfM1JHbgsg0Y-11" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="riuiL7pC6yUNBLEmRVCR-1">
           <mxGeometry x="140" y="1130" width="450" height="117" as="geometry" />
@@ -527,8 +474,25 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="dRjarNM7rPdWKdbsltIM" name="InstancePool">
+    <mxGraphModel dx="1272" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="7VOxgJlGyIBvd5ViKGGu-0" />
+        <mxCell id="7VOxgJlGyIBvd5ViKGGu-1" parent="7VOxgJlGyIBvd5ViKGGu-0" />
+        <mxCell id="vgqkDms1cr45TYGDQB9R-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="7VOxgJlGyIBvd5ViKGGu-1">
+          <mxGeometry x="70" y="250" width="630" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vgqkDms1cr45TYGDQB9R-1" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="7VOxgJlGyIBvd5ViKGGu-1">
+          <mxGeometry x="88" y="262" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="vgqkDms1cr45TYGDQB9R-2" value="&lt;u&gt;SQL Virtual Machine&lt;/u&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Full Administrative control over the sqlserver&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;Best for initial migrations (Lift &amp;amp; shift )to cloud with OS level access&lt;/li&gt;&lt;li&gt;Expansive SQL Server&amp;nbsp; and&amp;nbsp; OS version Support&amp;nbsp;&lt;/li&gt;&lt;li&gt;Automated Manageability features for SQL Server&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="7VOxgJlGyIBvd5ViKGGu-1">
+          <mxGeometry x="139.5" y="261.5" width="540.5" height="118" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="OeX1BFLGBi1VGVzkXTSN" name="EF-Core">
-    <mxGraphModel dx="2158" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="KME37owa_LQBpYINGuTs-0" />
         <mxCell id="KME37owa_LQBpYINGuTs-1" parent="KME37owa_LQBpYINGuTs-0" />
@@ -599,10 +563,63 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IjdBsa8nTJcFjcjDjynO" name="Az-SQL DB">
-    <mxGraphModel dx="2158" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="OTJ-cJRIe5PbWV8oopWR-0" />
         <mxCell id="OTJ-cJRIe5PbWV8oopWR-1" parent="OTJ-cJRIe5PbWV8oopWR-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CVmAKnSTbJUXh0REVaYn" name="Page-2">
+    <mxGraphModel dx="1272" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="GYQhm-3y8CjZIvlDoehy-0" />
+        <mxCell id="GYQhm-3y8CjZIvlDoehy-1" parent="GYQhm-3y8CjZIvlDoehy-0" />
+        <mxCell id="2RD997YDWe6JD6hN0LqM-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="30" y="35" width="2040" height="1275" as="geometry" />
+        </mxCell>
+        <mxCell id="GYQhm-3y8CjZIvlDoehy-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.sql_database_sql_azure;fillColor=#2E73B8;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="300" y="120" width="340" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GYQhm-3y8CjZIvlDoehy-3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/SQL_DataWarehouse.svg;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="230" y="730" width="364.58" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GYQhm-3y8CjZIvlDoehy-4" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="40" y="115" width="225.01" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="GYQhm-3y8CjZIvlDoehy-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="1500" y="110" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="GYQhm-3y8CjZIvlDoehy-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;imageBackground=#ffffff;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="1120" y="520" width="257.4" height="343.2" as="geometry" />
+        </mxCell>
+        <mxCell id="2RD997YDWe6JD6hN0LqM-0" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Managed_Instance.svg;strokeColor=#007FFF;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="630" y="130" width="274.21" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2RD997YDWe6JD6hN0LqM-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;strokeColor=#007FFF;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="1435" y="521.6" width="270" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="2RD997YDWe6JD6hN0LqM-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MariaDB_Server.svg;strokeColor=#007FFF;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="1740" y="521.6" width="270" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="2RD997YDWe6JD6hN0LqM-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_including_Redis.svg;strokeColor=#007FFF;fillColor=#2E73B8;" parent="GYQhm-3y8CjZIvlDoehy-1" vertex="1">
+          <mxGeometry x="1410" y="901.6" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk7xin9UFYKtxn7MkSMh-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
+          <mxGeometry x="40" y="1350" width="415.36" height="209.02" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk7xin9UFYKtxn7MkSMh-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
+          <mxGeometry x="55.36" y="1390" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk7xin9UFYKtxn7MkSMh-2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;strokeColor=#007FFF;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
+          <mxGeometry x="145.36" y="1395.1599999999999" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk7xin9UFYKtxn7MkSMh-3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MariaDB_Server.svg;strokeColor=#007FFF;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
+          <mxGeometry x="238.83999999999997" y="1395.1599999999999" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk7xin9UFYKtxn7MkSMh-4" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="GYQhm-3y8CjZIvlDoehy-1">
+          <mxGeometry x="375.36" y="1405.16" width="70" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
