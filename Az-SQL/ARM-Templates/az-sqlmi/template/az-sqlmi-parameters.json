@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "administratorLogin": {
+            "value": "azthdadmin"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "managedInstanceName": {
+            "value": "azthd-sqlmi"
+        },
+        "deployInExistingSubnet": {
+            "value": false
+        },
+        "skuName": {
+            "value": "GP_Gen5"
+        },
+        "skuEdition": {
+            "value": "GeneralPurpose"
+        },
+        "storageSizeInGB": {
+            "value": 32
+        },
+        "vCores": {
+            "value": 4
+        },
+        "licenseType": {
+            "value": "BasePrice"
+        },
+        "hardwareFamily": {
+            "value": "Gen5"
+        },
+        "dnsZonePartner": {
+            "value": ""
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "proxyOverride": {
+            "value": "Proxy"
+        },
+        "minimalTlsVersion": {
+            "value": "1.2"
+        },
+        "publicDataEndpointEnabled": {
+            "value": false
+        },
+        "timezoneId": {
+            "value": "UTC"
+        },
+        "nsgForPublicEndpoint": {
+            "value": "allowFromAzureCloudTo3342NSG"
+        },
+        "managedInstanceTags": {
+            "value": {}
+        },
+        "storageAccountType": {
+            "value": "GRS"
+        }
+    }
+}

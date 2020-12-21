@@ -1,0 +1,212 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "azsql-azthd28"
+        },
+        "networkSecurityGroupName": {
+            "value": "azsql-azthd-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": [
+                {
+                    "name": "RDP",
+                    "properties": {
+                        "priority": 300,
+                        "protocol": "TCP",
+                        "access": "Allow",
+                        "direction": "Inbound",
+                        "sourceAddressPrefix": "*",
+                        "sourcePortRange": "*",
+                        "destinationAddressPrefix": "*",
+                        "destinationPortRange": "3389"
+                    }
+                }
+            ]
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "virtualNetworkName": {
+            "value": "learn-af6ceeb5-e4bd-4917-9d62-58242c591da1-vnet"
+        },
+        "addressPrefixes": {
+            "value": [
+                "10.0.0.0/24"
+            ]
+        },
+        "subnets": {
+            "value": [
+                {
+                    "name": "default",
+                    "properties": {
+                        "addressPrefix": "10.0.0.0/24"
+                    }
+                }
+            ]
+        },
+        "publicIpAddressName": {
+            "value": "azsql-azthd-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "azsql-azthd"
+        },
+        "virtualMachineComputerName": {
+            "value": "azsql-azthd"
+        },
+        "virtualMachineRG": {
+            "value": "learn-af6ceeb5-e4bd-4917-9d62-58242c591da1"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "dataDisks": {
+            "value": [
+                {
+                    "lun": 0,
+                    "createOption": "attach",
+                    "caching": "ReadOnly",
+                    "writeAcceleratorEnabled": false,
+                    "id": null,
+                    "name": "azsql-azthd_DataDisk_0",
+                    "storageAccountType": null,
+                    "diskSizeGB": null,
+                    "diskEncryptionSet": null
+                },
+                {
+                    "lun": 1,
+                    "createOption": "attach",
+                    "caching": "None",
+                    "writeAcceleratorEnabled": false,
+                    "id": null,
+                    "name": "azsql-azthd_DataDisk_1",
+                    "storageAccountType": null,
+                    "diskSizeGB": null,
+                    "diskEncryptionSet": null
+                }
+            ]
+        },
+        "dataDiskResources": {
+            "value": [
+                {
+                    "name": "azsql-azthd_DataDisk_0",
+                    "sku": "Premium_LRS",
+                    "properties": {
+                        "diskSizeGB": 1024,
+                        "creationData": {
+                            "createOption": "empty"
+                        }
+                    }
+                },
+                {
+                    "name": "azsql-azthd_DataDisk_1",
+                    "sku": "Premium_LRS",
+                    "properties": {
+                        "diskSizeGB": 1024,
+                        "creationData": {
+                            "createOption": "empty"
+                        }
+                    }
+                }
+            ]
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "azthddadmin"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "patchMode": {
+            "value": "AutomaticByOS"
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "19:00"
+        },
+        "autoShutdownTimeZone": {
+            "value": "UTC"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownNotificationLocale": {
+            "value": "en"
+        },
+        "autoShutdownNotificationEmail": {
+            "value": "rajesh.kolla01@outlook.com"
+        },
+        "sqlVirtualMachineLocation": {
+            "value": "eastus"
+        },
+        "sqlVirtualMachineName": {
+            "value": "azsql-azthd"
+        },
+        "sqlConnectivityType": {
+            "value": "Private"
+        },
+        "sqlPortNumber": {
+            "value": 1433
+        },
+        "sqlStorageDisksCount": {
+            "value": 1
+        },
+        "sqlStorageWorkloadType": {
+            "value": "OLTP"
+        },
+        "sqlStorageDisksConfigurationType": {
+            "value": "NEW"
+        },
+        "sqlStorageStartingDeviceId": {
+            "value": 2
+        },
+        "sqlStorageDeploymentToken": {
+            "value": 39466
+        },
+        "sqlAutopatchingDayOfWeek": {
+            "value": "Sunday"
+        },
+        "sqlAutopatchingStartHour": {
+            "value": "2"
+        },
+        "sqlAutopatchingWindowDuration": {
+            "value": "60"
+        },
+        "dataPath": {
+            "value": "F:\\data"
+        },
+        "dataDisksLUNs": {
+            "value": [
+                0
+            ]
+        },
+        "logPath": {
+            "value": "G:\\log"
+        },
+        "logDisksLUNs": {
+            "value": [
+                1
+            ]
+        },
+        "tempDbPath": {
+            "value": "D:\\tempDb"
+        },
+        "rServicesEnabled": {
+            "value": "false"
+        }
+    }
+}
