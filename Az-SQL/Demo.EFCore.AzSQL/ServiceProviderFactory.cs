@@ -1,8 +1,11 @@
 using System;
 using System.IO;
-using demo_1_az_sql_ef_core;
+using Demo.EFCore.AzSQL;
 using Microsoft.AspNetCore.Hosting.Internal;
 using Microsoft.Extensions.DependencyInjection;
+
+namespace Demo.EFCore.AzSQL
+{
 
 public static class ServiceProviderFactory
 {
@@ -26,4 +29,5 @@ public static class ServiceProviderFactory
         startup.ConfigureServices(sc);
         ServiceProvider = sc.BuildServiceProvider();
     }
+}
 }

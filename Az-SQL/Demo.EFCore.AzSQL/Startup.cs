@@ -3,12 +3,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 // using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
- using demo_1_az_sql_ef_core.Models;
+ using Demo.EFCore.AzSQL.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
 
-namespace demo_1_az_sql_ef_core
+namespace Demo.EFCore.AzSQL
 {
 public class Startup
 {

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace demo_1_az_sql_ef_core.Models
+namespace Demo.EFCore.AzSQL.Models
 {
     public partial class sqldbaztdContext : DbContext
     {

@@ -3,23 +3,20 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace demo_1_az_sql_ef_core.Models
+namespace Demo.EFCore.AzSQL.Models
 {
-    public partial class ProductModel
+    public partial class ProductDescription
     {
-        public ProductModel()
+        public ProductDescription()
         {
             ProductModelProductDescriptions = new HashSet<ProductModelProductDescription>();
-            Products = new HashSet<Product>();
         }
 
-        public int ProductModelId { get; set; }
-        public string Name { get; set; }
-        public string CatalogDescription { get; set; }
+        public int ProductDescriptionId { get; set; }
+        public string Description { get; set; }
         public Guid Rowguid { get; set; }
         public DateTime ModifiedDate { get; set; }
 
         public virtual ICollection<ProductModelProductDescription> ProductModelProductDescriptions { get; set; }
-        public virtual ICollection<Product> Products { get; set; }
     }
 }

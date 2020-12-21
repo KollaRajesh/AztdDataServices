@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>demo_1_az_sql_ef_core</RootNamespace>
+    <RootNamespace>Demo.EFCore.AzSQL</RootNamespace>
     <UserSecretsId>aced00e7-fd6c-427f-801c-d40dd2c09fed</UserSecretsId>
   </PropertyGroup>
 

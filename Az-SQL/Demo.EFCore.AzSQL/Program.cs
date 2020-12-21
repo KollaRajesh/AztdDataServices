@@ -3,14 +3,14 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Hosting;
 using System.Linq;
 using Microsoft.EntityFrameworkCore.SqlServer;
-using demo_1_az_sql_ef_core.Models;
+using Demo.EFCore.AzSQL.Models;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System.Reflection;
 using System.IO;
 
-namespace demo_1_az_sql_ef_core
+namespace Demo.EFCore.AzSQL
 {
    public  class Program
     {
