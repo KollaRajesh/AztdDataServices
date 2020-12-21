@@ -18,9 +18,9 @@ namespace Demo.EFCore.AzSQL
         public static async Task  Main(string[] args)
         {
                 
-            var HostBuilder =  CreateHostBuilder(args).Build();
+          var HostBuilder =  CreateHostBuilder(args).Build();
           var services= HostBuilder.Services.CreateScope();
-          var  service =services.ServiceProvider.GetService<Startup>();
+
           using (var context= services.ServiceProvider.GetService<sqldbaztdContext>())
           {
             foreach (var product in context.Products)
@@ -34,17 +34,24 @@ namespace Demo.EFCore.AzSQL
 
         }
 
+        /// <summary>
+        /// CreateHostBuilder for console application 
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
          public static IHostBuilder CreateHostBuilder(string[] args) =>
              Host.CreateDefaultBuilder(args)
              .UseEnvironment(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ??"Development")
              .ConfigureHostConfiguration(configHost => 
              {
+               //Configuring Host configuration
                     configHost.SetBasePath(Directory.GetCurrentDirectory());
                     configHost.AddJsonFile(_hostsettings, optional: true);
                     configHost.AddEnvironmentVariables();
                     configHost.AddCommandLine(args);
              })
-             .ConfigureAppConfiguration((hostContext, configApp)=>{
+             .ConfigureAppConfiguration((hostContext, configApp)=>{ 
+               //Configuring App configuration
                     configApp.SetBasePath(Directory.GetCurrentDirectory());
                     configApp.AddJsonFile(_appsettings, optional: true);
                     configApp.AddJsonFile($"appsettings.{hostContext.HostingEnvironment.EnvironmentName}.json",
@@ -60,22 +67,13 @@ namespace Demo.EFCore.AzSQL
              )
              .ConfigureServices((HostContext,services)=> 
              {
+               //configuring services 
                 services.AddLogging();
                 var database=HostContext.Configuration.GetConnectionString("sqldbDatabase");
                 services.AddDbContext<sqldbaztdContext>(options =>
                 options.UseSqlServer(database));
-                services.AddTransient<Startup>();
 
              });
  
-            
-
-            // .ConfigureWebHostDefaults(webBuilder =>
-            // {
-            //     webBuilder.UseStartup<Startup>();
-            // }
-            // );
-
-            
     }
 }
