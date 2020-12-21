@@ -58,7 +58,7 @@ az sql db create `
                 --server $server `
                 --name $database  `
                 --sample-name AdventureWorksLT `
-                --edition GeneralPurpose `
+                --edition Basic `
                 --family Gen4  `
                 --capacity 1 `
                 --zone-redundant false # zone redundancy is only supported on premium and business critical service tiers

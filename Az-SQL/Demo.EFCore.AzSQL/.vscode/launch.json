@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net5.0/demo-1-az-sql-ef-core.dll",
+            "program": "${workspaceFolder}/bin/Debug/net5.0/Demo.EFCore.AzSQL.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",

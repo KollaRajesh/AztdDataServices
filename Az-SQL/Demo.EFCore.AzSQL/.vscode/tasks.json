@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/demo-1-az-sql-ef-core.csproj",
+                "${workspaceFolder}/Demo.EFCore.AzSQL.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/demo-1-az-sql-ef-core.csproj",
+                "${workspaceFolder}/Demo.EFCore.AzSQL.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/demo-1-az-sql-ef-core.csproj",
+                "${workspaceFolder}/Demo.EFCore.AzSQL.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
