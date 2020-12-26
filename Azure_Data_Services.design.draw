@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-26T19:09:17.084Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" etag="iePteGUh4BgmFRwsY7Kv" version="14.0.0" type="github" pages="7">
+<mxfile modified="2020-12-26T19:21:52.956Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" etag="OUGT5UpAT9Bnz8QYU7GH" version="14.0.0" type="github" pages="7">
   <diagram id="qvOK6YXQqs2uKq-FOEFI" name="Types of Data">
     <mxGraphModel dx="2155" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -332,70 +332,79 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IjdBsa8nTJcFjcjDjynO" name="Az-SQL DB- Sync Group">
-    <mxGraphModel dx="1305" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="636" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="OTJ-cJRIe5PbWV8oopWR-0" />
         <mxCell id="OTJ-cJRIe5PbWV8oopWR-1" parent="OTJ-cJRIe5PbWV8oopWR-0" />
-        <mxCell id="tOcAcO-A0A-UxUOI4Fs6-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;fontColor=none;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="880" y="70" width="1400" height="500" as="geometry" />
+        <mxCell id="es3xZkoIYMZ4GDBZipdC-0" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#663300;fontSize=39;fontColor=#FFFFFF;fillColor=#CCE5FF;" vertex="1" parent="OTJ-cJRIe5PbWV8oopWR-1">
+          <mxGeometry x="920" y="-1040" width="1430" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="FLj-hiSZa7It2uuzdWsD-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1610" y="110" width="640" height="430" as="geometry" />
+        <mxCell id="tOcAcO-A0A-UxUOI4Fs6-0" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=#CCE5FF;gradientColor=#994C00;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
+          <mxGeometry x="935" y="-950" width="1400" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="FLj-hiSZa7It2uuzdWsD-2" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;A sync group is a group of databases that you want to synchronize.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Data Sync service built on Azure SQLDB&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;it uses a hub and spoke topology to synchronize data&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Hub Database Should be an Azure SQL Database.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;The member databases can be either databases in Azure SQL Database or in instances of SQL Server.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Sync Metadata Database contains the metadata and log for Data Sync and&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 16px&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;The Sync Metadata Database should be&amp;nbsp; Azure SQL Database located in the same region as the Hub Database. it should be not be deleted while sync group or sync agent exists&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;u&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Use Cases&lt;/font&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Hybrid Data Synchronization&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Distributed Application&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Globally Distributed Application&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1630" y="125" width="600" height="405" as="geometry" />
+        <mxCell id="FLj-hiSZa7It2uuzdWsD-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;labelBackgroundColor=none;gradientColor=#FFFF99;fillColor=#FFE6CC;strokeColor=#999999;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
+          <mxGeometry x="1670" y="-910" width="630" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="FLj-hiSZa7It2uuzdWsD-3" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=none;dashed=1;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="890" y="110" width="280" height="260" as="geometry" />
+        <mxCell id="FLj-hiSZa7It2uuzdWsD-2" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;A sync group is a group of databases that you want to synchronize.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Data Sync service built on Azure SQLDB&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;it uses a hub and spoke topology to synchronize data&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Hub Database Should be an Azure SQL Database.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;The member databases can be either databases in Azure SQL Database or in instances of SQL Server.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Sync Metadata Database contains the metadata and log for Data Sync and&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px ; border: none ; padding: 0px ; font-size: 16px&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;The Sync Metadata Database should be&amp;nbsp; Azure SQL Database located in the same region as the Hub Database. it should be not be deleted while sync group or sync agent exists&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;u&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Use Cases&lt;/font&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Hybrid Data Synchronization&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Distributed Application&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Globally Distributed Application&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;fillColor=#f9f7ed;strokeColor=#B3B3B3;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
+          <mxGeometry x="1680" y="-902.5" width="610" height="405" as="geometry" />
         </mxCell>
-        <mxCell id="FLj-hiSZa7It2uuzdWsD-4" value="Member&amp;nbsp;&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#cce5ff;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="950" y="430" width="80" height="110" as="geometry" />
+        <mxCell id="FLj-hiSZa7It2uuzdWsD-3" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
+          <mxGeometry x="945" y="-910" width="280" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FLj-hiSZa7It2uuzdWsD-4" value="Member&amp;nbsp;&lt;br&gt;DB&lt;br&gt;(Azure DB)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#cce5ff;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
+          <mxGeometry x="1005" y="-620" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-5" value="Sync DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#cdeb8b;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1080" y="160" width="60" height="80" as="geometry" />
+          <mxGeometry x="1135" y="-860" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=none;startArrow=classic;startFill=1;" parent="OTJ-cJRIe5PbWV8oopWR-1" source="FLj-hiSZa7It2uuzdWsD-6" target="FLj-hiSZa7It2uuzdWsD-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-6" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Hub DB&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#cce5ff;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="950" y="170" width="80" height="110" as="geometry" />
+          <mxGeometry x="1005" y="-850" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-9" value="Sync Service&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#eeeeee;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1060" y="280" width="100" height="60" as="geometry" />
+          <mxGeometry x="1115" y="-740" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FLj-hiSZa7It2uuzdWsD-10" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=none;dashed=1;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1250" y="110" width="310" height="260" as="geometry" />
+        <mxCell id="FLj-hiSZa7It2uuzdWsD-10" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
+          <mxGeometry x="1305" y="-910" width="310" height="260" as="geometry" />
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-11" value="Member&amp;nbsp;&lt;br&gt;DB&lt;br&gt;(Azure DB)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#cce5ff;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1230" y="420" width="80" height="110" as="geometry" />
+          <mxGeometry x="1285" y="-600" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-12" value="Sync DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#cdeb8b;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1470" y="160" width="60" height="80" as="geometry" />
+          <mxGeometry x="1525" y="-860" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=none;startArrow=classic;startFill=1;" parent="OTJ-cJRIe5PbWV8oopWR-1" source="FLj-hiSZa7It2uuzdWsD-14" target="FLj-hiSZa7It2uuzdWsD-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1270" y="225" />
+              <mxPoint x="1325" y="-795" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-14" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Hub DB&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#cce5ff;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1310" y="180" width="80" height="110" as="geometry" />
+          <mxGeometry x="1365" y="-840" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;startArrow=classic;startFill=1;" parent="OTJ-cJRIe5PbWV8oopWR-1" source="FLj-hiSZa7It2uuzdWsD-14" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1500" y="290" as="sourcePoint" />
-            <mxPoint x="1430" y="420" as="targetPoint" />
+            <mxPoint x="1555" y="-730" as="sourcePoint" />
+            <mxPoint x="1485" y="-600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1430" y="235" />
+              <mxPoint x="1485" y="-785" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-16" value="Member&amp;nbsp;&lt;br&gt;DB&lt;br&gt;(On-Prem)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#cce5ff;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1390" y="420" width="80" height="110" as="geometry" />
+          <mxGeometry x="1445" y="-600" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FLj-hiSZa7It2uuzdWsD-15" value="Sync Agent&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#eeeeee;strokeColor=#36393d;" parent="OTJ-cJRIe5PbWV8oopWR-1" vertex="1">
-          <mxGeometry x="1440" y="500" width="80" height="60" as="geometry" />
+          <mxGeometry x="1495" y="-520" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="es3xZkoIYMZ4GDBZipdC-1" value="Sync Service&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="OTJ-cJRIe5PbWV8oopWR-1">
+          <mxGeometry x="1505" y="-730" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="es3xZkoIYMZ4GDBZipdC-2" value="&lt;u style=&quot;font-size: 52px;&quot;&gt;Sync Groups In Azure SQL&lt;/u&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=52;fontColor=#4D4D4D;" vertex="1" parent="OTJ-cJRIe5PbWV8oopWR-1">
+          <mxGeometry x="1260" y="-1040" width="640" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
