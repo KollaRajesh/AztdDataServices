@@ -60,19 +60,25 @@ az sql db create `
                 --sample-name AdventureWorksLT `
                 --edition Basic `
                 --family Gen4  `
-                --capacity 1 `
                 --zone-redundant false # zone redundancy is only supported on premium and business critical service tiers
 
 echo "list all databases in $server server and $resourceGroup resourceGroup..."
 az sql db list `
                 --resource-group $resourceGroup `
-                --server $server `
+                --server $server 
                   
 echo "show database details of $database on  $server..."
 az sql db show `
                 --resource-group $resourceGroup `
                 --server $server `
-                --name $database  `
+                --name $database  
+
+
+echo "show database connection sting  $database on  $server..."
+az sql db show-connection-string  `
+                -s $server `
+                -n $database  `
+                -c ado.net 
 
 
 echo "Creating failover-group $failoverGroup on $server..."

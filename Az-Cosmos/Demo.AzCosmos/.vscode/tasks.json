@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Demo.EFCore.AzSQL.ConsoleApp.csproj",
+                "${workspaceFolder}/Demo.AzCosmos.EFCore.ConsoleApp/Demo.AzCosmos.EFCore.ConsoleApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Demo.EFCore.AzSQL.ConsoleApp.csproj",
+                "${workspaceFolder}/Demo.AzCosmos.EFCore.ConsoleApp/Demo.AzCosmos.EFCore.ConsoleApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Demo.EFCore.AzSQL.ConsoleApp.csproj",
+                "${workspaceFolder}/Demo.AzCosmos.EFCore.ConsoleApp/Demo.AzCosmos.EFCore.ConsoleApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
