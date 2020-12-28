@@ -11,7 +11,7 @@
 [Here](https://github.com/KollaRajesh/AztdDataServices/tree/main/Az-Cosmos/Demo.AzCosmos/Demo.AzCosmos.EFCore.WebApiApp)
  is the demo code on Azure Cosmos DB using EntityFramework Core & AzureCosmosClient in WebApi]
 
-[Here](https://github.com/KollaRajesh/AztdDataServices/blob/main/AzureDatabaseServices.pdf) is the Presentation
+[Here](https://www.slideshare.net/11raz/azure-data-services-240639864) is the Presentation
 
 
 
