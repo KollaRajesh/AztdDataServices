@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using System.Net;
+using Microsoft.AspNetCore.Http;
 
 namespace Demo.AzCosmos.EFCore.WebApiApp.Controllers
 {
@@ -25,8 +26,8 @@ namespace Demo.AzCosmos.EFCore.WebApiApp.Controllers
             this.service = service;
         }
     
-        [HttpPost]
-        [Route("DeleteCollegeDatabase")]
+        [HttpPut("DeleteCollegeDatabase")]
+        //[Route("DeleteCollegeDatabase")]
         public async Task<IActionResult>  DeleteCollegeDatabaseIfExists()
         {
 
@@ -37,23 +38,24 @@ namespace Demo.AzCosmos.EFCore.WebApiApp.Controllers
              await this.service.DeleteCollegeDatabaseIfExists();
              Log.Debug("finished:Delete College Database started and This is only for demo purpose");
              return Ok();
+            
              }catch (System.Exception ex)
-            {
+             {
                     Log.Debug(ex.Message);
                     return Ok(HttpStatusCode.InternalServerError);
-            }
+             }
         }
 
-        [HttpPost]
-        [Route("CreateSampleColleges")]
+        [HttpPut("CreateSampleColleges")]
+        //[Route("CreateSampleColleges")]
         public async Task<IActionResult>  CreateSampleColleges()
         {
-              Log.Debug("Started: Create College Database. This is only for demo purpose");
+              Log.Debug("Started: Create sampleColleges in cosmos DB for demo purpose");
               try
               {
                   
              await this.service.CreateSampleCollegesAsSync();
-                Log.Debug("Finished: Update Addresses to existing colleges.");
+                Log.Debug("Finished: create colleges.");
                
                Log.Debug("started: Get colleges");
                 var colleges= await  this.service.GetColleges();
@@ -64,129 +66,107 @@ namespace Demo.AzCosmos.EFCore.WebApiApp.Controllers
                 else 
                      return Ok(HttpStatusCode.NotFound);
               }
-             catch (System.Exception ex)
-            {
+              catch (System.Exception ex)
+              {
                     Log.Debug(ex.Message);
                     return Ok(HttpStatusCode.InternalServerError);
-            }
+              }
         }
 
-        [HttpPost]
-        [Route("UpdateAddress")]
+        [HttpPut("UpdateAddress")]
+        // [Route("UpdateAddress")]
+         [ProducesResponseType(typeof(List<College>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(void), StatusCodes.Status204NoContent)]
         public async Task<IActionResult> UpdateAddressforColleges()
         {
-               Log.Debug("Started: Update Addresses to existing colleges. This is only for demo purpose");
-               try
-               {
+            Log.Debug("Started: Update Addresses to existing colleges for demo purpose");
+            
+            await this.service.UpdateAddressforCollegesAsync();
+            Log.Debug("Finished: Update Addresses to existing colleges.");
 
-               await this.service.UpdateAddressforCollegesAsync();
-               Log.Debug("Finished: Update Addresses to existing colleges.");
+                Log.Debug("started: Get colleges");
+               var colleges= await  this.service.GetColleges();
+                Log.Debug("Finished: Get colleges");
 
-                 Log.Debug("started: Get colleges");
-                var colleges= await  this.service.GetColleges();
-                   Log.Debug("Finished: Get colleges");
+            if (colleges==null)
+                    return NoContent();
 
-                if (colleges!=null)
-                     return Ok(colleges);
-                else 
-                     return Ok(HttpStatusCode.NotFound);
-               }
-                 catch (System.Exception ex)
-                {
-                    Log.Debug(ex.Message);
-                    return Ok(HttpStatusCode.InternalServerError);
-                }
+            return Ok(colleges);
         }
          
-         [HttpPost]
-        [Route("UpdateDepartments")]
+         [HttpPut("UpdateDepartments")]
+        //[Route("UpdateDepartments")]
+          [ProducesResponseType(typeof(List<College>),StatusCodes.Status200OK)]
         public async Task<IActionResult> UpdateDepartmentsforColleges()
         {
               Log.Debug("Started: Update Departments to existing colleges. This is only for demo purpose");
-             try{
              await   this.service.UpdateDepartmentsforCollegesAsync();
              Log.Debug("Finished: Update Departments to existing colleges. This is only for demo purpose");
 
                 Log.Debug("started: Get colleges");
                 var colleges= await  this.service.GetColleges();
-                   Log.Debug("Finished: Get colleges");
+                Log.Debug("Finished: Get colleges");
 
-                if (colleges!=null)
-                     return Ok(colleges);
-                else 
+                if (colleges==null)
                      return Ok(HttpStatusCode.NotFound);
-
-             }  catch (System.Exception ex)
-            {
-                Log.Debug(ex.Message);
-                 return Ok(HttpStatusCode.InternalServerError);
-            }
+ 
+            return Ok(colleges);
+            
         }
-        [HttpGet]
-        [Route("GetAll")]
+        //[Route("GetAll")]
+        [HttpGet("colleges")]
+        [ProducesResponseType(typeof(List<College>),StatusCodes.Status200OK)]
          public async Task<ActionResult>  GetColleges()
         { 
            List<College> colleges ; 
-            Log.Debug("started: Get colleges");
-            try{
-
-             colleges= await  this.service.GetColleges();
-
-                if (colleges!=null)
-                return Ok(colleges);
-                else 
-                return Ok(HttpStatusCode.NotFound);
-        }
-            catch (System.Exception ex)
+            Log.Debug("started: Get colleges. for demo");
+            colleges= await this.service.GetColleges();
+                
+            if (colleges==null)
             {
-                Log.Debug(ex.Message);
-                 return Ok(HttpStatusCode.InternalServerError);
+                Log.Debug("colleges are not found.");
+                return NotFound();
             }
+
+           return  Ok(colleges);    
         }
-        [HttpGet]
-        [Route("GetById/{id}")]
+
+        [HttpGet("{id}", Name = "GetCollege")]
+        [HttpGet("With/{id}")]
+        // [Route("GetById/{id}")]
+        [ProducesResponseType(typeof(College),StatusCodes.Status200OK)]
         public async Task<ActionResult>  GetById(int collegeId)
         {
-               College college ; 
-            Log.Debug("Get college by id  for demo started");
-            try{
+            Log.Debug($"started: Get college by id {collegeId} for demo");
 
-            college = await  this.service.GetByIdAsync(collegeId);
-              if (college!=null)
-              return Ok(college);
-            else 
-              return Ok(HttpStatusCode.NotFound);
+           College college = await  this.service.GetByIdAsync(collegeId);
 
-            }
-            catch (System.Exception ex)
+            if (college==null)
             {
-                Log.Debug(ex.Message);
-                 return Ok(HttpStatusCode.InternalServerError);
+                Log.Debug($"college id {collegeId} is not found");
+                return NotFound();
             }
+                return Ok(college);
+            
         }
-        [HttpGet]
-        [Route("GetByName/{name}")]
-        public async Task<ActionResult> GetByName(string name)
+
+        [HttpGet("WithName/{name}", Name = "GetCollegeByName")]
+        //[Route("GetByName/{name}")]
+         [ProducesResponseType(typeof(College),StatusCodes.Status200OK)]
+        public async Task<ActionResult> GetByName(string collegeName)
         {
              College college ; 
             
-            Log.Debug("Get college by id  for demo started");
-            try
-            {
-            college = await  this.service.GetByNameAsync(name);
+            Log.Debug("started:get college by id for demo ");
+            college = await this.service.GetByNameAsync(collegeName);
 
-            if (college!=null)
-                   return Ok(college);
-            else 
-              return Ok(HttpStatusCode.NotFound);
-                
-            }
-            catch (System.Exception ex)
-            {
-                Log.Debug(ex.Message);
-                 return Ok(HttpStatusCode.NotFound);
-            }
+            if (college==null)
+             {
+                Log.Debug($"college name {collegeName} is not found");
+                   return NotFound();
+             }
             
+            return  Ok(college);
             
         }
 }
