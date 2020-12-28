@@ -2,7 +2,7 @@
 
 
 
-[Here is the demo code on Azure SQL-DB using EntityFramework Core](https://github.com/KollaRajesh/AztdDataServices/tree/main/Az-SQL)
+[Here](https://github.com/KollaRajesh/AztdDataServices/tree/main/Az-SQL) is the demo code on Azure SQL-DB using EntityFramework Core
 
 
 [Here](https://github.com/KollaRajesh/AztdDataServices/tree/main/Az-Cosmos/Demo.AzCosmos/Demo.AzCosmos.EFCore.ConsoleApp)
