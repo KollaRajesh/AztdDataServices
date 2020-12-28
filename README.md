@@ -15,7 +15,8 @@
 
 
 
-Recorded Session: 
+Recorded Sessions: 
+------------------
 
 Technical session on Databases as Service in Azure
 
