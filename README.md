@@ -1,4 +1,4 @@
-### This rep is used for workshops\Demos on Data services (Database as Service ) in Azure. 
+### This repo is used for workshops\Demos on Data services (Database as Service ) in Azure. 
 
 
 
